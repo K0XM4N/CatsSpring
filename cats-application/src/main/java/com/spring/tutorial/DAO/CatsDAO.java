@@ -13,7 +13,6 @@ import java.util.List;
 /**
  * Created by HD29QN on 2017-02-22.
  */
-@Component
 @Repository
 public class CatsDAO {
 

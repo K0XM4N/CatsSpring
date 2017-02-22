@@ -1,5 +1,7 @@
 package com.spring.tutorial.model;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by HD29QN on 2017-02-22.
  */

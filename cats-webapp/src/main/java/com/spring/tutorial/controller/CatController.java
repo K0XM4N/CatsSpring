@@ -13,10 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class CatController {
 
-////    @Autowired
-////    private CatsDAO catsDAO;
-//    @Autowired
-//    private Cat cat;
+    @Autowired
+    private CatsDAO catsDAO;
 
     @RequestMapping("/welcome")
     public String showMessage(Model model){
