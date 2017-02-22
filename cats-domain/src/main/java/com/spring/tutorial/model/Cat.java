@@ -2,17 +2,24 @@ package com.spring.tutorial.model;
 
 import org.springframework.stereotype.Component;
 
+import javax.persistence.*;
+
 /**
  * Created by HD29QN on 2017-02-22.
  */
+@Entity
+@Table(name = "cat")
 public class Cat {
 
+    @Id
+    @GeneratedValue
     private int id;
 
     private String name;
 
     private String race;
 
+    @Column(name = "eye_color", nullable = false)
     private String eyeColor;
 
 
